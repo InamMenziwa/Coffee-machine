@@ -23,13 +23,10 @@ def calculation(quarters, dimes, nickles, pennies):
         print(f"Sorry not enough money, Your ${sum_of_money} has been refunded")
 
 def selection(report):
-        water = report["water"]
-        milk = report["milk"]
-        coffee = report["coffee"]
-        print(f"Water: {water}ml")
-        print(f"Milk {milk}ml")
-        print(f"coffee: {coffee}g")
-        print(f"Shop profit: ${money}")
+        print(f"Water: {resources['water']}ml")
+        print(f"Milk {resources['milk']}ml")
+        print(f"coffee: {resources['coffee']}g")
+        print(f"Money: ${money}")
 
 while more_customers:
     enter = input("what would you like? (espresso/latte/cappuccino): ")
