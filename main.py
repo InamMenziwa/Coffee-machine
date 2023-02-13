@@ -2,7 +2,6 @@ from coffees import resources,MENU
 
 money = 0
 more_customers = True
-print(type(resources["water"]))
 
 def calculation(quarters, dimes, nickles, pennies):
     global money,milk,water,coffee
