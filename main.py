@@ -36,6 +36,8 @@ while more_customers:
 
     if enter == "report":
         selection(resources)
+    elif enter == "off":
+        break     
     elif enter == "espresso":
         if resources["water"] <= 0 or resources["milk"] <= 0 or resources['coffee'] <= 0:
             print('sorry we out of resources, Your money has been refunded')
