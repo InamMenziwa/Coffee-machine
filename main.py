@@ -29,7 +29,7 @@ def selection(report):
         print(f"Water: {water}ml")
         print(f"Milk {milk}ml")
         print(f"coffee: {coffee}g")
-        print(f"Money: ${money}")
+        print(f"Shop profit: ${money}")
 
 while more_customers:
     enter = input("what would you like? (espresso/latte/cappuccino): ")
