@@ -39,6 +39,7 @@ while more_customers:
     elif enter == "espresso":
         if resources["water"] <= 0 or resources["milk"] <= 0 or resources['coffee'] <= 0:
             print('sorry we out of resources, Your money has been refunded')
+            break
         else:
             print('Please insert coins.')
             quarters = float(input("How many quarters?: "))
@@ -60,6 +61,7 @@ while more_customers:
     elif enter == "cappuccino":
         if resources["water"] <= 0 or resources["milk"] <= 0 or resources['coffee'] <= 0:
             print('sorry we out of resources, You money has been refunded')
+            break
         else:
             print('Please insert coins.')
             quarters = float(input("How many quarters?: "))
