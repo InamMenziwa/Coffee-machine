@@ -43,7 +43,7 @@ while more_customers:
         nickles = float(input('How many nickles?: '))
         pennies = float(input('How many pennies?: '))
         if resources["water"] <= 0 or resources["milk"] <= 0 or resources['coffee'] <= 0:
-            print('sorry we out of resources, You money has been refunded')
+            print('sorry we out of resources, Your money has been refunded')
         calculation(quarters = quarters, dimes=dimes, nickles= nickles, pennies=pennies)
     elif enter == "latte":
         print('Please insert coins.')
@@ -52,7 +52,7 @@ while more_customers:
         nickles = float(input('How many nickles?: '))
         pennies = float(input('How many pennies?: '))
         if resources["water"] <= 0 or resources["milk"] <= 0 or resources['coffee'] <= 0:
-            print('sorry we out of resources, You money has been refunded')
+            print('sorry we out of resources, Your money has been refunded')
         else:
             calculation(quarters = quarters, dimes=dimes, nickles= nickles, pennies=pennies)
     elif enter == "cappuccino":
@@ -62,7 +62,7 @@ while more_customers:
         nickles = float(input('How many nickles?: '))
         pennies = float(input('How many pennies?: '))
         if resources["water"] <= 0 or resources["milk"] <= 0 or resources['coffee'] <= 0:
-            print('sorry we out of resources, You money has been refunded')
+            print('sorry we out of resources, Your money has been refunded')
         else:
             calculation(quarters = quarters, dimes=dimes, nickles= nickles, pennies=pennies)
 
