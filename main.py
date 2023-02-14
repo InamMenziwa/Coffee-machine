@@ -40,6 +40,7 @@ while more_customers:
             print('sorry we out of resources, Your money has been refunded')
             break
         else:
+            print(f"Your coffee will be ${MENU[enter]["cost"]})
             print('Please insert coins.')
             quarters = float(input("How many quarters?: "))
             dimes = float(input('How many dimes?: '))
@@ -51,6 +52,7 @@ while more_customers:
             print('sorry we out of resources, Your money has been refunded')
             break
         else:
+            print(f"Your coffee will be ${MENU[enter]["cost"]})
             print('Please insert coins.')
             quarters = float(input("How many quarters?: "))
             dimes = float(input('How many dimes?: '))
@@ -62,6 +64,7 @@ while more_customers:
             print('sorry we out of resources, You money has been refunded')
             break
         else:
+            print(f"Your coffee will be ${MENU[enter]["cost"]})
             print('Please insert coins.')
             quarters = float(input("How many quarters?: "))
             dimes = float(input('How many dimes?: '))
